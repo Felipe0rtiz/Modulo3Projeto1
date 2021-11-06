@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.container p {
+  font-size: 3rem;
+  padding: 0.5rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  overflow: hidden;
+}
+.container p span.typed-text {
+  font-weight: normal;
+  color: orangered;
+}
+.container p span.cursor {
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+.container p span.cursor.typing {
+  animation: none;
+}
+@keyframes blink {
+  0%  { background-color: #ccc; }
+  49% { background-color: #ccc; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #ccc; }
+}
+
+.typed-text
+{
+    font-weight: 900 !important;
+}
+
+html, body {
+    height: 100%;
+    background-color: rgb(66, 66, 66);
+    background-image: url("https://static.vecteezy.com/ti/vetor-gratis/p3/2534159-estrela-de-confete-de-prata-em-de-fundo-preto-vetor.jpg");
+    background-size: cover;
+    font-weight: 900;
+}
+body {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    font-weight: 900;
+}
+main {
+    flex: 1;
+    margin-bottom: 2rem;
+}
+
+header, footer {
+    width: 100%;
+}
+.card-img-top {
+    width: 50% !important;
+    height: auto !important;
+    margin: 0 auto;
+}
+
+.roda
+{
+    background-image: url("https://static.vecteezy.com/ti/vetor-gratis/p3/2534159-estrela-de-confete-de-prata-em-de-fundo-preto-vetor.jpg");
+    margin: auto;
+    padding: 0.5rem;
+    font-style: italic;
+    display: flexbox;
+    color: orangered;
+
+}
+
+.container
+{
+    font-style: italic;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.navbar-brand
+{
+    background-color: black;
+    color: orangered;
+    font-size: 1.5rem;
+
+}
+
+.col
+{
+    width: 33%;
+    height: auto;
+    display: flex;
+}
+
+.card
+{
+    padding: 2%;
+    background-image: url("https://blog.universalsoftware.com.br/wp-content/uploads/2016/08/filmes-que-todo-corretor-de-imoveis-deveria-assistir.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+
+h5
+{
+    color: rgb(206, 152, 18);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    padding: 1rem;
+    line-height: normal;
+}
+
+.bg-primary {
+    background-color:darkgoldenrod!important;
+    font-size: 20px;    
+}
+
+h1
+{
+    color: orangered !important;
+}
