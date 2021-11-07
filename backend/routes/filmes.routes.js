@@ -4,24 +4,24 @@ const router = express.Router();
 
 const filmes = [
     {
-        id: Date.now(),
-        nome: 'Luca',
-        genero: 'Aventura',
-        imagem: 'https://lumiere-a.akamaihd.net/v1/images/poster_002_ffcbf145.png',
-        nota: '10',
-    },
-    {
-        id: Date.now(),
+        id: (Date.now().toString(36) + Math.random().toString(36).substr(2, 5)).toUpperCase(),
         nome: 'Venom',
         genero: 'Ação/Ficção',
         imagem: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQVxLXB4UpngxtMPNndsVI451JZ6TQSn3XejvWkUX3Bh80WKFlT',
         nota: '10',
     },
     {
-        id: Date.now(),
+        id: (Date.now().toString(36) + Math.random().toString(36).substr(2, 5)).toUpperCase(),
         nome: 'Ron Bugado',
         genero: 'Animação',
         imagem: 'https://i2.wp.com/otageek.com.br/wp-content/uploads/2021/09/poster-ron-bugado-scaled.jpg?fit=1728%2C2560&ssl=1',
+        nota: '10',
+    },
+    {
+        id: (Date.now().toString(36) + Math.random().toString(36).substr(2, 5)).toUpperCase(),
+        nome: 'Luca',
+        genero: 'Aventura',
+        imagem: 'https://lumiere-a.akamaihd.net/v1/images/poster_002_ffcbf145.png',
         nota: '10',
     },
 ]
